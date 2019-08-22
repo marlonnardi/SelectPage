@@ -4,8 +4,6 @@
 
 # SelectPage
 
-A simple style and powerful selection jQuery plugin, including ajax remote data, autocomplete, pagination, tags, i18n and keyboard navigation features
-
 <p>
 <a href="https://travis-ci.org/TerryZ/SelectPage"><img src="https://travis-ci.org/TerryZ/SelectPage.svg?branch=master"></a>
 <a href="https://www.npmjs.com/package/selectpage"><img src="https://img.shields.io/npm/v/selectpage.svg"></a>
@@ -13,7 +11,10 @@ A simple style and powerful selection jQuery plugin, including ajax remote data,
 <a href="https://www.npmjs.com/package/selectpage"><img src="https://img.shields.io/npm/dy/selectpage.svg"></a>
 <a href="https://mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
 <a href="https://www.npmjs.com/package/selectpage"><img src="https://img.shields.io/badge/language-javascript%20%2F%20jquery-blue.svg"></a>
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 </p>
+
+A simple style and powerful selection jQuery plugin, including ajax remote data, autocomplete, pagination, tags, i18n and keyboard navigation features
 
 <!--
 <br><br><br><br><br>
@@ -79,6 +80,14 @@ The Vuejs version: [v-selectpage](https://github.com/TerryZ/v-selectpage)
 
 <br><br>
 
+## Browsers support
+
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
+| --------- | --------- | --------- | --------- | --------- |
+| IE8, IE9, IE10, IE11, Edge| Firefox 18+| Chrome 49+| Safari 10+| Opera 36+
+
+<br><br>
+
 
 ## Plugin Preview
 
@@ -94,7 +103,6 @@ The Vuejs version: [v-selectpage](https://github.com/TerryZ/v-selectpage)
 
 ![SelectPageList](https://terryz.github.io/image/SelectPageList.png)
 
-**If you think this project is helpful, please star it.**
 
 <br><br>
 
@@ -127,11 +135,10 @@ npm install selectpage
   **Including files**  
   ```html
   <!-- jQuery library -->
-  <script type="text/javascript" src="jquery.min.js" >< /script>
+  <script type="text/javascript" src="jquery.min.js" ></script>
 
-  <link rel="stylesheet" href="selectpage.css" type="text/css">
-  
-  <script type="text/javascript" src="selectpage.js" >< /script>
+  <link rel="stylesheet" href="selectpage.css" type="text/css">  
+  <script type="text/javascript" src="selectpage.js" ></script>
   ```
 
   **HTML input element set**  
